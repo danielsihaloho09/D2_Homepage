@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.7 on win32)" generated="20221013 22:08:51.614" rpa="false" schemaversion="3">
+<suite id="s1" name="Homepage" source="C:\Users\DANIEL\Desktop\Automation\TC\Homepage.robot">
+<test id="s1-t1" name="HomepageTest" line="11">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221013 22:08:51.872" level="INFO">Opening browser 'chrome' to base url 'http://automationpractice.com/index.php'.</msg>
+<status status="PASS" starttime="20221013 22:08:51.872" endtime="20221013 22:09:03.717"/>
+</kw>
+<kw name=" Checkhomepage">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="img-responsive"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:03.720" level="INFO">Clicking element 'xpath=//*[@class="img-responsive"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:03.718" endtime="20221013 22:09:04.637"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@title="Log in to your customer account"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:04.637" level="INFO">Clicking element 'xpath=//*[@title="Log in to your customer account"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:04.637" endtime="20221013 22:09:08.152"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@title="Contact Us"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:08.152" level="INFO">Clicking element 'xpath=//*[@title="Contact Us"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:08.152" endtime="20221013 22:09:09.974"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="icon-home"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:09.974" level="INFO">Clicking element 'xpath=//*[@class="icon-home"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:09.974" endtime="20221013 22:09:13.228"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@title="Log in to your customer account"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:13.229" level="INFO">Clicking element 'xpath=//*[@title="Log in to your customer account"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:13.228" endtime="20221013 22:09:15.737"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@id="SubmitLogin"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:15.738" level="INFO">Clicking element 'xpath=//*[@id="SubmitLogin"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:15.737" endtime="20221013 22:09:17.481"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="icon-home"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:17.482" level="INFO">Clicking element 'xpath=//*[@class="icon-home"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:17.482" endtime="20221013 22:09:21.432"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath=//*[@id="search_query_top"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20221013 22:09:21.432" endtime="20221013 22:09:21.482"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>xpath=//*[@id="search_query_top"]</arg>
+<arg>Printed</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:21.483" level="INFO">Typing text 'Printed' into text field 'xpath=//*[@id="search_query_top"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:21.483" endtime="20221013 22:09:21.561"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@name="submit_search"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:21.561" level="INFO">Clicking element 'xpath=//*[@name="submit_search"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:21.561" endtime="20221013 22:09:23.501"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="icon-home"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:23.501" level="INFO">Clicking element 'xpath=//*[@class="icon-home"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:23.501" endtime="20221013 22:09:26.049"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@title="View my shopping cart"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:26.049" level="INFO">Clicking element 'xpath=//*[@title="View my shopping cart"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:26.049" endtime="20221013 22:09:28.429"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="icon-home"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:28.430" level="INFO">Clicking element 'xpath=//*[@class="icon-home"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:28.429" endtime="20221013 22:09:31.875"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="product_img_link"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:31.876" level="INFO">Clicking element 'xpath=//*[@class="product_img_link"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:31.875" endtime="20221013 22:09:36.015"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="icon-home"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:36.016" level="INFO">Clicking element 'xpath=//*[@class="icon-home"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:36.015" endtime="20221013 22:09:41.623"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="bx-prev"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:41.624" level="INFO">Clicking element 'xpath=//*[@class="bx-prev"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:41.623" endtime="20221013 22:09:41.671"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath=//*[@class="bx-next"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20221013 22:09:41.671" level="INFO">Clicking element 'xpath=//*[@class="bx-next"]'.</msg>
+<status status="PASS" starttime="20221013 22:09:41.671" endtime="20221013 22:09:41.720"/>
+</kw>
+<status status="PASS" starttime="20221013 22:09:03.718" endtime="20221013 22:09:41.720"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221013 22:09:41.721" endtime="20221013 22:09:44.120"/>
+</kw>
+<status status="PASS" starttime="20221013 22:08:51.871" endtime="20221013 22:09:44.121"/>
+</test>
+<status status="PASS" starttime="20221013 22:08:51.616" endtime="20221013 22:09:44.125"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Homepage">Homepage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
